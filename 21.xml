@@ -63,7 +63,26 @@
                                           </block>
                                         </value>
                                         <next>
-                                          <block type="movement_stop" id="196"></block>
+                                          <block type="robot_delay" id="197" inline="true">
+                                            <value name="DELAY">
+                                              <block type="math_number" id="198">
+                                                <field name="NUM">200</field>
+                                              </block>
+                                            </value>
+                                            <next>
+                                              <block type="led_select" id="199" inline="true">
+                                                <field name="ACTION">ON</field>
+                                                <value name="LED">
+                                                  <block type="math_number" id="200">
+                                                    <field name="NUM">2</field>
+                                                  </block>
+                                                </value>
+                                                <next>
+                                                  <block type="movement_stop" id="196"></block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
                                         </next>
                                       </block>
                                     </next>
