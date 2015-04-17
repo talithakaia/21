@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_forward" id="10" x="301" y="20">
+  <block type="movement_forward" id="10" x="285" y="59">
     <next>
       <block type="robot_delay" id="12" inline="true">
         <value name="DELAY">
@@ -26,7 +26,7 @@
                     <field name="TEXT">bruh</field>
                     <next>
                       <block type="led_select" id="139" inline="true">
-                        <field name="ACTION">FLASH</field>
+                        <field name="ACTION">ON</field>
                         <value name="LED">
                           <block type="math_number" id="146">
                             <field name="NUM">1</field>
@@ -41,7 +41,7 @@
                             </value>
                             <next>
                               <block type="led_select" id="164" inline="true">
-                                <field name="ACTION">FLASH</field>
+                                <field name="ACTION">ON</field>
                                 <value name="LED">
                                   <block type="math_number" id="165">
                                     <field name="NUM">5</field>
@@ -56,7 +56,7 @@
                                     </value>
                                     <next>
                                       <block type="led_select" id="166" inline="true">
-                                        <field name="ACTION">FLASH</field>
+                                        <field name="ACTION">ON</field>
                                         <value name="LED">
                                           <block type="math_number" id="186">
                                             <field name="NUM">4</field>
